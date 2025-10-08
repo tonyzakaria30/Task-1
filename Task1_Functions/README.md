@@ -1,5 +1,4 @@
 # Task 1 — JavaScript Functions
-Author: **Tony Qelada** — *tony.zakaria30@gmail.com*
 
 ## Files
 - `task1.js`: two JS functions
