@@ -1,15 +1,15 @@
 // Simple runnable tests for Task 1 (Node.js)
-// Author: Tony Qelada (tony.zakaria30@gmail.com)
+
 
 const { countMultiplesOf4Or6, isPalindrome } = require('./task1');
 
 let passed = 0, failed = 0;
 function assertEqual(actual, expected, msg) {
   if (actual === expected) {
-    console.log(`✅ PASS: ${msg}`);
+    console.log(` PASS: ${msg}`);
     passed++;
   } else {
-    console.error(`❌ FAIL: ${msg} -> expected ${expected}, got ${actual}`);
+    console.error(` FAIL: ${msg} -> expected ${expected}, got ${actual}`);
     failed++;
   }
 }
