@@ -1,5 +1,4 @@
 // Task 1 - Functions (JavaScript)
-// Author: Tony Qelada (tony.zakaria30@gmail.com)
 
 function countMultiplesOf4Or6(arr) {
   if (!Array.isArray(arr)) throw new TypeError('arr must be an array');
